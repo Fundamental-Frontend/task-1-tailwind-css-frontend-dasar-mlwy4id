@@ -7,7 +7,12 @@ export default {
       colors: {
         primary: "#2563EB",
         secondary: "#16A34A",
-        background: "#F8FAFC",
+        accent: "#6B7280",
+        background: {
+          DEFAULT: "#F8FAFC",
+          hero: "#1E293B",
+          footer: "#111827"
+        },
       },
     },
   },
